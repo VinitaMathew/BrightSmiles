@@ -23,6 +23,7 @@ const Specialities = React.forwardRef((props, specialitiesRef) => {
     refs[id].current.scrollIntoView({
       behavior: "smooth",
       block: "nearest",
+      inline: "center",
     });
   };
 
@@ -188,14 +189,14 @@ const Specialities = React.forwardRef((props, specialitiesRef) => {
       {isMobile ? (
         <div className="specialities-buttons">
           <button
-            className="previous-button"
+            className="sp-previous-button"
             onClick={() => handlePreviousClick(selectedSpeciality - 1)}
             disabled={selectedSpeciality > 1 ? false : true}
           >
             &#8249;
           </button>
           <button
-            className="next-button"
+            className="sp-next-button"
             onClick={() => handleNextClick(selectedSpeciality + 1)}
             disabled={
               selectedSpeciality >= SpecialitiesData.length ? true : false

@@ -214,13 +214,13 @@
   left: 18%;
   top: 150px;
 }
-.previous-button,
-.next-button {
+.sp-previous-button,
+.sp-next-button {
   border: none;
   background-color: unset;
   font-size: 40px;
 }
-.previous-button {
+.sp-previous-button {
   margin-right: 210px;
 }
 
@@ -295,16 +295,17 @@
     &:not(:last-of-type) {
       margin-right: 10px;
     }
-    &:hover,
-    &.is-active {
-      transform: scale(2);
+    &:active,
+    &:hover {
+      transform: scale(1.05);
       background: transparent;
-      background: black;
+      background: #c4c4c4;
     }
   }
   .selected {
     margin-top: -3px;
     width: 16px;
     height: 16px;
+    background: black !important;
   }
 }
