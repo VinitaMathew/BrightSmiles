@@ -1,0 +1,126 @@
+.about-container {
+  position: absolute;
+  width: 100%;
+  height: 735px;
+  overflow: hidden;
+  top: 3025px;
+}
+.about-content-wrapper {
+  position: absolute;
+  width: 80%;
+  left: 16%;
+  top: 143px;
+}
+.details-map {
+  width: 392px;
+  height: 500px;
+  border: 2px solid #cdcdcd;
+  filter: drop-shadow(0px 8px 30px);
+}
+.arrow-image {
+  position: absolute;
+  left: 30%;
+  bottom: 84%;
+  width: 450px;
+  height: 200px;
+}
+.details-section {
+  position: absolute;
+  left: 40%;
+  top: 50px;
+  width: 50%;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.about-content {
+  font-weight: 400;
+  font-size: 16px;
+}
+.about-button {
+  width: 262px;
+  height: 48px;
+  margin-top: 30px;
+  background: #312d7b;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.about-button::after {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 5px;
+  left: 0;
+  margin-top: 50px;
+  background: rgba(222, 222, 222, 0.83);
+}
+.about-contact {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 32px;
+  padding-bottom: 30px;
+}
+.social-media-links {
+  padding-top: 20px;
+}
+.instagram-image {
+  width: 24px;
+  padding-right: 20px;
+}
+.linkedin-image {
+  width: 24px;
+  padding-right: 20px;
+}
+.twitter-image {
+  width: 24px;
+}
+@media only screen and (max-width: 500px) {
+  .about-container {
+    top: 3760px;
+  }
+  .about-content-wrapper {
+    left: 5%;
+  }
+  .details-map {
+    width: 111%;
+    height: 300px;
+    margin-top: 12%;
+  }
+  .arrow-image {
+    display: none;
+  }
+  .details-section {
+    left: 0;
+    top: -130px;
+    width: 118%;
+  }
+  .about-title {
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+  .about-button {
+    width: 95%;
+    margin-top: 360px;
+  }
+  .about-button::after {
+    left: 145px;
+  }
+  .about-contact {
+    padding-bottom: 10px;
+    margin-left: 85px;
+  }
+  .about-section2 {
+    margin-left: 130px;
+  }
+  .social-media-links {
+    padding-top: 10px;
+    margin-left: 116px;
+  }
+}

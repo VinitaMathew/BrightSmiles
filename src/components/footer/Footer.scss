@@ -1,0 +1,54 @@
+.footer-container {
+  position: absolute;
+  height: 278px;
+  width: 100%;
+  background: #312d7b;
+  top: 3760px;
+}
+.footer-details {
+  position: absolute;
+  top: 60px;
+  left: 15%;
+}
+.footer-title {
+  font-family: "Comforter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  width: 40%;
+}
+.footer-address {
+  color: white;
+  width: 65%;
+}
+.footer-moto {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+@media only screen and (max-width: 500px) {
+  .footer-container {
+    top: 4495px;
+    height: 288px;
+  }
+  .footer-details {
+    top: 25px;
+  }
+  .footer-title {
+    margin-left: 70px;
+  }
+  .footer-address {
+    width: 85%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .footer-moto {
+    left: 11%;
+    top: 70%;
+    font-size: 24px;
+  }
+}

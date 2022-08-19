@@ -1,0 +1,99 @@
+.infoContainer {
+  position: absolute;
+  width: 635px;
+  top: 136px;
+  .infoLine1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+  }
+  .infoLine2 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 108px;
+  }
+  .infoContent {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .infoButton {
+    width: 262px;
+    height: 48px;
+    margin-top: 30px;
+    background: #312d7b;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .infoButton::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 5px;
+    left: 0;
+    margin-top: 50px;
+    background: rgba(222, 222, 222, 0.83);
+  }
+  .infoContact {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 32px;
+  }
+  .info-image {
+    position: absolute;
+    width: 157px;
+    height: 148px;
+    top: 88%;
+    left: 54%;
+  }
+  .image-text1 {
+    position: absolute;
+    left: 60%;
+    font-weight: 700;
+    font-size: 40px;
+    color: #7769ff;
+    top: 93%;
+  }
+  .image-text2 {
+    position: absolute;
+    left: 56%;
+    top: 109%;
+    font-weight: 600;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .infoContainer {
+    width: 325px;
+    top: -32px;
+    .infoLine2 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    .info-image,
+    .image-text1,
+    .image-text2 {
+      display: none;
+    }
+    .infoButton {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .infoButton::after {
+      left: 135px;
+    }
+    .infoContact {
+      margin-left: 65px;
+    }
+    .info-image {
+    }
+  }
+}

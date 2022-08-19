@@ -1,0 +1,33 @@
+.menu-list-desktop {
+  position: absolute;
+  left: 40%;
+  top: 8.5%;
+}
+.bsa-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+.menu-button {
+  position: absolute;
+  border: none;
+  background-color: white;
+  margin-left: 80%;
+  padding-top: 18px;
+  cursor: pointer;
+}
+.menu-list-mobile {
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 64px;
+  display: inline-grid;
+}
+@media only screen and (max-width: 500px) {
+  .bsa-link {
+    padding: 5px;
+  }
+}

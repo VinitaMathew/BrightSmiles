@@ -1,0 +1,56 @@
+.bsa-landing-page {
+  position: absolute;
+  width: 100%;
+  height: 835px;
+  overflow: hidden;
+  .bsa-menu-container {
+    position: absolute;
+    top: 45px;
+    left: 16%;
+  }
+  .bsa-logo {
+    width: 152px;
+    height: 84px;
+  }
+  .bsa-checkup-button {
+    width: 176px;
+    height: 48px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 13px;
+    position: absolute;
+    left: 630%;
+    cursor: pointer;
+  }
+  .bsa-info-container {
+    position: absolute;
+    display: flex;
+    top: 130px;
+    left: 16%;
+    .bsa-info-image {
+      height: 600px;
+      margin-left: 68%;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bsa-landing-page {
+    .bsa-logo {
+      width: 100px;
+      height: 60px;
+    }
+    .bsa-menu-container {
+      left: 5%;
+      top: 20px;
+    }
+    .bsa-info-container {
+      left: 5%;
+      .bsa-info-image {
+        height: 320px;
+        margin-left: -15%;
+        margin-top: 84%;
+      }
+    }
+  }
+}

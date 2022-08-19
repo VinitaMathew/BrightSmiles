@@ -1,0 +1,310 @@
+.specialitiesContainer {
+  position: absolute;
+  width: 100%;
+  height: 735px;
+  overflow: hidden;
+  top: 835px;
+  background: #f6f4f2;
+  .specialitiesList {
+    list-style-type: none;
+    position: absolute;
+    left: 45%;
+    top: 155px;
+    padding: unset;
+    width: 43%;
+    /*** for scroll ****/
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 50%;
+  }
+}
+.specialitiesList::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollSection {
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 15%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  list-style: none;
+  background: #c4c4c4;
+  transition: all 0.3s;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  &:hover,
+  &.is-active {
+    transform: scale(1.8);
+    background: transparent;
+    background: black;
+  }
+}
+
+.selected {
+  background: black;
+  width: 13px;
+  height: 13px;
+  margin-left: -4px;
+}
+
+.specialities-title {
+  font-weight: 700;
+  font-size: 47.3333px;
+  line-height: 59px;
+  position: absolute;
+  width: 315.07px;
+  height: 142px;
+  left: 45%;
+  top: 70px;
+}
+
+.specialitiesListItem {
+  display: grid;
+  align-content: center;
+  height: 40vh;
+  padding-top: 70px;
+  .specialitiesItemTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 20px;
+  }
+  .specialitiesItemContent {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+.bsa-active-speciality-img {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  left: 37%;
+  margin-top: 23%;
+}
+
+.bsa-speciality-img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  left: 37%;
+  margin-top: 23%;
+}
+.active-img-text {
+  position: absolute;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  left: 0px;
+  top: 130px;
+  z-index: 1;
+  width: 200px;
+}
+
+.img-text {
+  position: absolute;
+  font-weight: 400;
+  font-size: 9px;
+  text-align: center;
+  left: 19px;
+  top: 109px;
+  z-index: 1;
+  width: 116px;
+}
+.nav-icons {
+  position: absolute;
+  left: 22%;
+  top: -20px;
+  width: 254px;
+  height: 580px;
+  overflow: hidden;
+  padding-top: 215px;
+  cursor: pointer;
+}
+
+.nav-icons::-webkit-scrollbar {
+  display: none;
+}
+.icon-list-item {
+  outline: 0.5px solid #c4c4c4;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  list-style: none;
+  transition: all 0.5s;
+  position: relative;
+
+  &:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+}
+.icon-list-item-selected {
+  outline: 0.5px solid #ffd075;
+  outline-offset: 0.5rem;
+  width: 200px;
+  height: 200px;
+  background-color: #ffd075;
+  border-radius: 50%;
+  list-style: none;
+  transition: all 0.3s;
+  margin-left: -25px;
+
+  &:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+}
+.specialities-section2 {
+  padding-top: 70px;
+  display: flex;
+}
+.average-cost,
+.average-operation-time {
+  margin-right: 90px;
+}
+.cost-number,
+.operation-time-number,
+.successful-operations-number {
+  font-weight: 700;
+  font-size: 24px;
+}
+.average-cost:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 31px;
+  margin-left: 150px;
+  margin-top: -45px;
+  background-color: #d8d6d4;
+}
+.average-operation-time:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 31px;
+  margin-left: 220px;
+  margin-top: -45px;
+  background-color: #d8d6d4;
+}
+.specialities-background-img {
+  position: absolute;
+  width: 300px;
+  right: 0;
+  top: 59%;
+}
+.specialities-buttons {
+  position: absolute;
+  left: 18%;
+  top: 150px;
+}
+.previous-button,
+.next-button {
+  border: none;
+  background-color: unset;
+  font-size: 40px;
+}
+.previous-button {
+  margin-right: 210px;
+}
+
+@media only screen and (max-width: 500px) {
+  .specialities-background-img,
+  .average-cost:after,
+  .average-operation-time:after {
+    display: none;
+  }
+  .specialities-title {
+    font-size: 36px;
+    left: 5%;
+    top: 20px;
+  }
+  .specialitiesContainer {
+    .specialitiesList {
+      left: 0;
+      top: 310px;
+      width: 100%;
+      overflow-x: scroll;
+      display: flex;
+    }
+  }
+  .specialitiesListItem {
+    padding-left: 10%;
+    height: 215px;
+    padding-right: 21px;
+  }
+  .specialities-section2 {
+    padding-top: 35px;
+  }
+  .average-cost,
+  .average-operation-time {
+    margin-right: 24px;
+    width: 132px;
+  }
+  .specialitiesItemContent {
+    font-size: 16px;
+    width: 90%;
+  }
+  .cost-title,
+  .operation-time-title,
+  .successful-operations-title {
+    font-size: 12px;
+  }
+  .nav-icons {
+    left: 25%;
+    top: -135px !important;
+    width: auto;
+    display: flex;
+    height: unset;
+  }
+  .icon-list-item-selected {
+    width: 170px;
+    height: 170px;
+  }
+  .active-img-text {
+    left: 12px;
+    top: 100px;
+    width: 155px;
+  }
+  .scrollSection {
+    top: 41%;
+    margin: 20%;
+  }
+  .nav-dots-ul {
+    display: flex;
+  }
+  .nav-dot {
+    width: 10px;
+    height: 10px;
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+    &:hover,
+    &.is-active {
+      transform: scale(2);
+      background: transparent;
+      background: black;
+    }
+  }
+  .selected {
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+  }
+}
