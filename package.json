@@ -2,7 +2,7 @@
   "name": "bright-smiles-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://VinitaMathew.github.io/BrightSmiles",
+  "homepage": "https://vinitamathew.github.io/BrightSmiles",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
