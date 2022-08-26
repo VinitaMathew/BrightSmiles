@@ -145,5 +145,10 @@
   .review-buttons {
     margin-left: 40%;
     top: 83%;
+    .previous-button,
+    .next-button {
+      font-size: 27px;
+      border-width: 2px;
+    }
   }
 }
