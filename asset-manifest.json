@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/BrightSmiles/static/css/main.d6fad8e2.css",
+    "main.js": "/BrightSmiles/static/js/main.442fa91c.js",
+    "static/js/787.4f674c20.chunk.js": "/BrightSmiles/static/js/787.4f674c20.chunk.js",
+    "static/media/bsa-info-image.png": "/BrightSmiles/static/media/bsa-info-image.522cec5bab3198acdf6a.png",
+    "static/media/team_photo2.png": "/BrightSmiles/static/media/team_photo2.46e51b573d5de51704a9.png",
+    "static/media/team_photo3.png": "/BrightSmiles/static/media/team_photo3.dd3d8b6d73f1738c31ef.png",
+    "static/media/reviewer_photo2.png": "/BrightSmiles/static/media/reviewer_photo2.9ee853c4ffff2b63a995.png",
+    "static/media/team_photo1.png": "/BrightSmiles/static/media/team_photo1.47fbe13a82b99f61bd74.png",
+    "static/media/reviewer_photo1.jpg": "/BrightSmiles/static/media/reviewer_photo1.9aaed58daa881d4c41ff.jpg",
+    "static/media/bsa-logo.jpg": "/BrightSmiles/static/media/bsa-logo.46f0647fb560bf53c67b.jpg",
+    "static/media/teethBackground2.png": "/BrightSmiles/static/media/teethBackground2.759c7d66835d951dd9d3.png",
+    "static/media/teethBackground1.png": "/BrightSmiles/static/media/teethBackground1.94cdda0d2917647c592d.png",
+    "static/media/circles.png": "/BrightSmiles/static/media/circles.37fc8b04f6fd86cd5db5.png",
+    "static/media/arrow.png": "/BrightSmiles/static/media/arrow.511ece648abcf88b0716.png",
+    "index.html": "/BrightSmiles/index.html",
+    "main.d6fad8e2.css.map": "/BrightSmiles/static/css/main.d6fad8e2.css.map",
+    "main.442fa91c.js.map": "/BrightSmiles/static/js/main.442fa91c.js.map",
+    "787.4f674c20.chunk.js.map": "/BrightSmiles/static/js/787.4f674c20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6fad8e2.css",
+    "static/js/main.442fa91c.js"
+  ]
+}
