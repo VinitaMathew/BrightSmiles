@@ -24,6 +24,7 @@
   position: absolute;
   min-height: 250px;
   transition: all 0.35s ease;
+  z-index: 1;
 }
 .review-list-item {
   position: relative;
@@ -85,8 +86,8 @@
   }
 }
 .review-buttons {
-  margin-left: 14%;
-  top: 72%;
+  top: 85%;
+  left: 50%;
   position: absolute;
   .previous-button {
     width: 36px;
@@ -108,7 +109,8 @@
 }
 .reviews-background-img {
   width: 300px;
-  margin-top: 26%;
+  position: absolute;
+  top: 60%;
   margin-left: -3%;
 }
 @media only screen and (max-width: 500px) {
@@ -145,6 +147,7 @@
   .review-buttons {
     margin-left: 40%;
     top: 83%;
+    left: unset;
     .previous-button,
     .next-button {
       font-size: 27px;

@@ -72,7 +72,7 @@ const Reviews = React.forwardRef((props, ref) => {
               ref={refs[data.id]}
               style={{
                 right: isMobile
-                  ? `calc(${selectedReview - 1}*120%)`
+                  ? `calc(${selectedReview - 1}*120.5%)`
                   : `calc(${selectedReview - 1} * 79%)`,
               }}
             >

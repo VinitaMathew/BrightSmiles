@@ -1,3 +1,6 @@
+
+@import "../../shared/breakpoint.scss";
+
 .specialitiesContainer {
   position: absolute;
   width: 100%;
@@ -223,8 +226,8 @@
 .sp-previous-button {
   margin-right: 210px;
 }
-
-@media only screen and (max-width: 500px) {
+// @include for-phone-only() {
+@include viewport(xSmall) {
   .specialities-background-img,
   .average-cost:after,
   .average-operation-time:after {
