@@ -19,20 +19,31 @@ const Specialities = React.forwardRef((props, specialitiesRef) => {
   }, {});
 
   const handleClick = (id) => {
-    setSelectedSpeciality(id);
+    const timeoutId = setTimeout(() => {
+      setSelectedSpeciality(id);
+    }, 250);
     refs[id].current.scrollIntoView({
       behavior: "smooth",
       block: "nearest",
       inline: "center",
     });
+    return () => {
+      clearTimeout(timeoutId);
+    };
   };
 
   const handleClickIcon = (id) => {
-    setSelectedSpeciality(id);
+    const timeoutId = setTimeout(() => {
+      setSelectedSpeciality(id);
+    }, 250);
     refs[id].current.scrollIntoView({
       behavior: "smooth",
       block: "nearest",
     });
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
   };
 
   const handlePreviousClick = (selected) => {
