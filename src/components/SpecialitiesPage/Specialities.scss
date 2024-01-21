@@ -1,4 +1,3 @@
-
 @import "../../shared/breakpoint.scss";
 
 .specialitiesContainer {
@@ -227,7 +226,7 @@
   margin-right: 210px;
 }
 // @include for-phone-only() {
-@include viewport(xSmall) {
+@include viewport(xMedium) {
   .specialities-background-img,
   .average-cost:after,
   .average-operation-time:after {

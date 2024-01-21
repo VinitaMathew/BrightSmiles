@@ -1,5 +1,3 @@
-
-
 // @mixin for-phone-only {
 //   @media (max-width: 599px) {
 //     @content;
@@ -27,16 +25,17 @@
 // }
 
 $breakpoints: (
-    'xSmall':400px,
+  "xSmall": 400px,
+  "xMedium": 1024px,
 );
 
-@mixin viewport($breakpoint){
-    @if map-has-key($breakpoints , $breakpoint ){
-        @media (max-width: map-get($breakpoints,$breakpoint)){
-            @content
-        }
+@mixin viewport($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints,$breakpoint)) {
+      @content;
     }
-    else{
-        @warn 'no content'
-    }
+  }
+  else {
+    @warn 'no content';
+  }
 }
